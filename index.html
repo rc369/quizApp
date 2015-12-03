@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="description" content ="musicQuiz">
+	<meta name="keywords" content="NJIT,Yangfan,music,quiz">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Rock+Salt' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/music.css">
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+
+	<script src="script.js"></script>
+    <style>
+  	h2{
+  		text-align:center;
+  	}
+    </style>
+</head>
+
+
+<body>
+<!--facebook plugin-->
+<script>
+  var name;
+  var facebookName;
+  function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+    if (response.status === 'connected') {
+      testAPI();
+    } else if (response.status === 'not_authorized') {
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into this app.';
+    } else {
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into Facebook.';
+    }
+  }
+
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+
+  window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '533419866824832',
+    cookie     : true,  // enable cookies to allow the server to access 
+                        // the session
+    xfbml      : true,  // parse social plugins on this page
+    version    : 'v2.2' // use version 2.2
+  });
+
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+
+  };
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+  function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me', function(response) {
+      document.getElementById('status').innerHTML =
+        'Thanks for logging in, ' + response.name + '!';
+    });
+    facebookName = response.name;
+  }
+
+</script>
+
+<!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+
+  <div class= "navbar-fixed">
+  <nav class="grey darken-4">
+    <div class="nav-wrapper">
+      <a href="#gohome" class="brand-logo modal-trigger"><img src="images/wave.GIF" witdth="100px" height= "50px"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">queue_music</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Yangfan</a></li>
+        <li><a href="#">Rich</a></li>
+        <li><a href="#">Manvi</a></li>
+        <li><a href="#">Daniela</a></li>
+        <li><a href="#"><i class="material-icons left">dashboard</i>Search</a></li>
+      </ul>
+      <ul class="side-nav collapsible collapsible-accordion" id="mobile-demo">
+        <li class="no-padding"><a href="#" class="collapsible-header">Yangfan</a>
+            <div class="collapsible-body">
+                <ul>
+                  <li><a href="#">html5</a></li>
+                  <li><a href="#">sass</a></li>
+                  <li><a href="#">jquery</a></li>
+                  <li><a href="#">angularJS</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">Rich</a></li>
+        <li><a href="#">Manvi</a></li>
+        <li><a href="#">Daniela</a></li>
+        <li><a href="#"><i class="material-icons">search</i></a></li>
+      </ul>
+      <a href="#" data-activates="dropdown1" class="button-collapse dropdown-button" style="left:80%;"><i class="material-icons">more_vert</i></a>
+      <ul class="dropdown-content" style="position:fixed;left:80%" id="dropdown1">
+        <li><a class="modal-trigger" href="#modal2">tutorial</a></li>
+        <li><a class="modal-trigger" href="#modal3">about</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Tutorial</h4>
+      <p>No need for tutorial, just shoot for highest score!</p>
+    </div>
+  </div>
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4>about</h4>
+      <p>a very simple app built using Google's Materialize framework, deployed on android via Adobe Phonegap</p>
+    </div>
+  </div>
+  <div id="gohome" class="modal">
+    <div class="modal-content">
+      <h4>home</h4>
+      <p>are you sure to go back to home screen?</p>
+    </div>
+    <div class="modal-footer">
+      <a href="javascript:location.reload();" class=" modal-action modal-close waves-effect waves-green btn-flat">Yes</a>
+      <a class="modal-action modal-close waves-effect waves-green btn-flat">No</a>
+    </div>
+  </div>
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h4>Game Over</h4>
+      <p>Better luck next time </p>
+    </div>
+  </div>
+  <!--home structure -->
+  <div id="intro" align="center">
+	  <h2>Welcome to <b>Musicquiz</b> </h2>
+    <a class="waves-effect waves-light btn-large" id="homeB" >CLICK to get started</a>
+    <br>
+    <span class="flowtext" style="color:red;font:10px" id="no_name"></span>
+  </div>
+  <ul class="hoverable" id="genre">
+    <li class="pop">pop</li>
+    <li class="classical">classical</li>
+    <li class="blues">blues</li>
+    <li class="rock">rock</li>
+  </ul>
+
+
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
+
+  <!--audio
+  <div class="audio" align="center" >
+    <audio controls id="mp3" >
+      <source src="" type="audio/mp3">
+    </audio>
+  </div>
+  <-->
+  <div class="audio" align="center" >
+    <audio id="music" >
+      <source src="" type="audio/mp3">
+    </audio>
+  </div>
+
+  <div id="audioplayer">
+    <button id="pButton" class="play" onclick="play()"></button>
+    <div id="timeline">    
+          <div id="playhead"></div>
+    </div>
+  </div>
+
+
+  <div id="choices" align="center">
+      <button class="btn waves-effect waves-red btn-large white black-text " id="choice1"></button>
+      <button class="btn waves-effect waves-yellow btn-large  white black-text" id="choice2"></button>
+      <button class="btn waves-effect waves-purple btn-large  white black-text" id="choice3"></button>
+      <button class="btn waves-effect waves-green btn-large  white black-text" id="choice4"></button>
+  </div>
+
+
+
+
+  <div class="score">
+    <kbd>Your Score: <span id="counter" style="color:yellow">0</span></kbd>
+  </div>
+
+  <div class="stars">
+    <img src="images/heart.png">
+    <img src="images/heart.png">
+    <img src="images/heart.png">
+  </div>
+  
+
+  <div id="scoreboard">
+    <a  style="width:100%" id="start_over" href="#gohome" class="modal-trigger waves-effect waves-light btn"  ><i class="material-icons right">home</i>start over</a>
+    <table class= "bordered striped highlight reponsive-table">
+      <thead>
+        <tr>
+            <th data-field="name">Name</th>
+            <th data-field="score">score</th>
+            <th data-field="rank">rank</th>
+        </tr>
+      </thead>
+
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 20px; right: 18px;">
+    <a class="btn-floating btn-large red">
+      <i class="large mdi-navigation-menu"></i>
+    </a>
+    <ul>
+      <li><a class="btn-floating blue"><i class="fa fa-twitter"></i></a></li>
+      <li><a class="btn-floating blue darken-1"><i class="fa fa-facebook"></i></a></li>
+      <li><a class="btn-floating red"><i class="fa fa-pinterest"></i></a></li>
+      <li><a class="btn-floating yellow"><i class="material-icons">thumb_up</i></a></li>
+    </ul>
+  </div>
+
+  <div id="spongebob">
+    <img src="images/spongebob.gif" height="150px" width="200px">
+  </div>
+  
+  <div id="sign_in">
+      <div class="input-field col s10">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">User Name</label>
+      </div>
+    
+      <fb:login-button scope="public_profile,email" data-size="large" data-max-rows="10" onlogin="checkLoginState();">
+      </fb:login-button>
+
+      <div id="status">
+      </div>
+      <div style="left:0;bottom:0;"
+        class="fb-like"
+        data-share="true"
+        data-width="200px"
+        data-show-faces="true">
+      </div>
+  </div>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+body{
+    background: #DE6262; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.initial_hide,#genre,#choices,.progress,#scoreboard,#spongebob{
+    display:none;
+}
+#audioplayer{
+    visibility:hidden;
+}
+#choices{
+    margin-top:5%;
+}
+#choice1,#choice2,#choice3,#choice4{
+	width:70%;
+	margin:10px auto;
+}
+#genre li{
+    display: block;
+    width: 70%;
+    height: 170px;
+
+    text-align: center;
+    color:#fff;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    margin: 12px auto;
+}
+#genre li:active {
+    display: block;
+    width: 75%;
+    height: 180px;
+    font-size: 5em;
+    font-weight: bold;
+    color:#fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+    box-shadow:5px 5px 10px black;
+    margin: 10px auto;
+}
+.pop{
+    background: #207d59;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-image: url("images/pop.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.classical{
+    background: #207d59;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-image: url("images/classical.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blues{
+    background: #FFFF00;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-image: url("images/blues.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.rock{
+    background: #b85b53;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-image: url("images/rock.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.score, .stars{
+    width:50%;
+    margin:0 auto;
+}
+
+span{
+    color:yellow;
+    font-family: 'Rock Salt',cursive;
+}
+#counter{
+    font-size:150%;
+}
+#spongebob{
+    position:absolute;
+    left:200px;
+    top:100px;
+    z-index:1;
+}
