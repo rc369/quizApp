@@ -1,2 +1,3 @@
 # quizApp
 # this is just an reference for daniela, rich and manvi
+please implement app further as you like, just pull request so that I know what has been changed. I am particularly worried about the design for the audio player. hopefully you guys can come up with better graphics to change the look on the audio player...
