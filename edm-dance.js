@@ -1,6 +1,6 @@
 var questions = {"edm-dance":[
 	{
-	"song":"https://dl.dropboxusercontent.com/content_link/Ep2WjdZrF78RstnwJGkQJEd55fHLbptWgh3PrAe61oI2RXSSFul6mlvipEzFI6XT/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/TiestoRedLights.mp3",
 	"choice1":"Till the sky falls down",
 	"choice2":"Red lights",
 	"choice3":"So Get Up",
@@ -8,7 +8,7 @@ var questions = {"edm-dance":[
 	"answer":"Red lights"
 	},
 	{
-	"song":"https://dl.dropboxusercontent.com/content_link/775qzEUdy1H4DOnyQR2qEGW4BCQL9nWdZGe8F0A5wrJqX1tq6p7m8o9OLoqswoFp/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/Tilltheskyfallsdown.mp3",
 	"choice1":"Red lights",
 	"choice2":"Rosaires",
 	"choice3":"Not Alone",
@@ -16,7 +16,7 @@ var questions = {"edm-dance":[
 	"answer":"Till the sky falls down"
 	},
 	{
-	"song":"https://dl.dropboxusercontent.com/content_link/4n93QrTxaaUvcolBYrwLvhToDqPJWzItNpJxWvxfhpsu0AfECHrNq2bhyZiNSDCJ/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/CosmicGate-SoGetUp.mp3",
 	"choice1":"So Get Up",
 	"choice2":"Till the sky falls down",
 	"choice3":"Trouble man",
@@ -24,7 +24,7 @@ var questions = {"edm-dance":[
 	"answer":"So Get Up"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/xHK40LdvxcaIkv5RateuXOG12UKuBSCLRcNHgmuB3kvsvpRKpBiZLVXdKDyQyFxy/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/GianlucaMottaFtMolly-NotAlone.mp3",
 	"choice1":"City of lights",
 	"choice2":"Turn it up",
 	"choice3":"Not Alone",
@@ -32,7 +32,7 @@ var questions = {"edm-dance":[
 	"answer":"Not Alone"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/blRMlwxsSK9uhBUIRCbiMdAKBToqrTkiNvzkCbXs3y2kFzcnafOofg0fTJHZw60n/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/AlyFila-Rosaires.mp3",
 	"choice1":"Rosaires",
 	"choice2":"Pyramid",
 	"choice3":"Cross",
@@ -40,7 +40,7 @@ var questions = {"edm-dance":[
 	"answer":"Rosaires"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/ZTwZCcGRsfebt6gN1oXtlQgUbjTPuNMKE9ddBm75TBVopVALaNQoTja0FmluJF9S/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/TiestoKSHMR-Secrets.mp3",
 	"choice1":"City of lights",
 	"choice2":"Hooka",
 	"choice3":"Secrets",
@@ -48,7 +48,7 @@ var questions = {"edm-dance":[
 	"answer":"Secrets"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/XDxqGQtq7X5pAB4ITEUTrTUZF73SFuNvFNFyB3FeoskD63cSpmJjEY40FDdcnl4G/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/Funkagenda-OneDayAtATime.mp3",
 	"choice1":"Wizard",
 	"choice2":"Tsunami",
 	"choice3":"Born to rage",
@@ -56,7 +56,7 @@ var questions = {"edm-dance":[
 	"answer":"One Day At A Time"
 	},
     {
-	"song":"https://dl.dropboxusercontent.com/content_link/oWnRgmHYehJR5YHcbar7VtueGxICe7MmpArOVG4nwq3YLjRUUT0OSLF9VhRCzECF/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/DavidGuettafeatRihanna-WhosThatChick.mp3",
 	"choice1":"Dangerous",
 	"choice2":"Who's That Chick?",
 	"choice3":"Turn it up",
@@ -64,7 +64,7 @@ var questions = {"edm-dance":[
 	"answer":"Who's That Chick?"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/faBFiIKvcp3RU4HpffuPAb4aqTs0RE8Qw4bt5AmXReFNCkwqFI8JAxhoPIfuVESX/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/Tiesto-AdagioForStrings.mp3",
 	"choice1":"Adagio For Strings",
 	"choice2":"Supreme",
 	"choice3":"Blueprint",
@@ -72,7 +72,7 @@ var questions = {"edm-dance":[
 	"answer":"Adagio For Strings"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/XNWozTV1ossiU07vwBHTGpZxSKiajS1T8tcikh3fFWzYssJ0rD9xNxhQukbBlQuK/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/Dusky-Careless.mp3",
 	"choice1":"Think I'm",
 	"choice2":"Don't you do it",
 	"choice3":"Careless",
@@ -80,7 +80,7 @@ var questions = {"edm-dance":[
 	"answer":"Careless"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/bzM1oFajLzvqKagMVjs9Op91rlSpUwgHddfEt4l4xDyMzutKA4B1qKaQU5gxknFU/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/RobinSchulz-Sugar.mp3",
 	"choice1":"Twisted",
 	"choice2":"Lifted",
 	"choice3":"Revolutions",
@@ -88,7 +88,7 @@ var questions = {"edm-dance":[
 	"answer":"Sugar"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/2UWWCyM5bNrPjdUC0FC0KC0mMG3Xys8UbsDonni0aZ2cUi49Yjdnt38Pq2nTIgji/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/DavidGuetta-Dangerous.mp3",
 	"choice1":"Dangerous",
 	"choice2":"Do it again",
 	"choice3":"Spin me around",
@@ -96,7 +96,7 @@ var questions = {"edm-dance":[
 	"answer":"Dangerous"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/G4ZiueQgMAaXGzrgE9LHawx5aUPdEbvnFrdpzopGOgjIDTQM18ClPwrBcL4G6ZnO/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/CashCash-Surrender.mp3",
 	"choice1":"I give up",
 	"choice2":"Surrender",
 	"choice3":"Love it",
@@ -104,7 +104,7 @@ var questions = {"edm-dance":[
 	"answer":"Surrender"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/2clK0tQEN9aOK2Jce9rDBYaGoEkI4efb7eCAUs2CNvOYQwIXaKj0qOtY6fCeNZU8/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/RogerSanchez-MyRoots.mp3",
 	"choice1":"Jumper",
 	"choice2":"WickIt",
 	"choice3":"Keep it coming",
@@ -112,7 +112,7 @@ var questions = {"edm-dance":[
 	"answer":"My Roots"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/mqOj5OdhgDUDVqLxWOakQ9hFwcbDhfNRkoUyAJT76po2satUBg9ZKKBRUipAhGja/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/Showtek-Booyah.mp3",
 	"choice1":"Dance all night",
 	"choice2":"Booyah",
 	"choice3":"Revolution",
@@ -120,7 +120,7 @@ var questions = {"edm-dance":[
 	"answer":"Booyah"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/UzDvQIH9VJylYK9bNs5GGl3UFmkZDNjd5vGakJDNwUpdAHEAcC7O76kEXgeVP6so/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/DennisFerrer-Heyhey.mp3",
 	"choice1":"Hey hey",
 	"choice2":"Ordinary day",
 	"choice3":"I heard you say",
@@ -128,7 +128,7 @@ var questions = {"edm-dance":[
 	"answer":"Hey hey"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/dOjn3iBpeB5uctFTFc5tJWDo2a6QHUTVHMXppoho0miujaHuel2SzksXUs4DRhM6/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/RogerSanchezFeatGTO-Turnonthemusic.mp3",
 	"choice1":"It's time",
 	"choice2":"Take control",
 	"choice3":"Turn on the music",
@@ -136,7 +136,7 @@ var questions = {"edm-dance":[
 	"answer":"Turn on the music"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/PHF8O4iUnTpikXGnEhLKwJU7zSIVorvyTz5W7dpAuqKkF3OOruXHMzD6f6z2H0i1/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/DavidGuettaSia-Titanium.mp3",
 	"choice1":"Titanium",
 	"choice2":"Project T",
 	"choice3":"Faith",
@@ -144,7 +144,7 @@ var questions = {"edm-dance":[
 	"answer":"Titanium"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/p6OQBJYEFY4w2X3ZcBX3fCqVzCxyv1cZupxbDLQAkAUw3jb69EY1IFtna4zmA06r/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/ProkFitch-SouthKeys.mp3",
 	"choice1":"Creepin",
 	"choice2":"South Keys",
 	"choice3":"Miami beats",
@@ -152,7 +152,7 @@ var questions = {"edm-dance":[
 	"answer":"South Keys"
 	},
   {
-	"song":"https://dl.dropboxusercontent.com/content_link/Jmq52l49cn81PN3RkrSofZWUdG3ozQB8p6qOZd3TtL6uj04Aorlq5kcM7657orYh/file",
+	"song":"https://harp.njit.edu/~rc369/musicapp/edm/LanadelRey-SummertimeSadness.mp3",
 	"choice1":"Summertime Sadness",
 	"choice2":"Red dress",
 	"choice3":"Who's that chick?",
